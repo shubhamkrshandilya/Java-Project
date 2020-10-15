@@ -19,8 +19,9 @@ class sort_server
                         for(i=0;i<n;i++)
                         {
                                     a[i]=din.readInt();
+                                    
                         }
-                        System.out.println("Data Received");
+                        System.out.println("Data Received to client");
                         System.out.println("Sorting Data...");
                         Arrays.sort(a);
                         System.out.println("Data Sorted");
