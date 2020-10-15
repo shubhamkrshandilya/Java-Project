@@ -21,7 +21,7 @@ class sort_server
                                     a[i]=din.readInt();
                                     
                         }
-                        System.out.println("Data Received to client");
+                        System.out.println("Data Received to client ");
                         System.out.println("Sorting Data...");
                         Arrays.sort(a);
                         System.out.println("Data Sorted");
