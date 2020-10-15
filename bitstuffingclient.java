@@ -28,8 +28,9 @@ public class bitstuffingclient {
                 // in user's data 
                 cnt++; 
   
-                if (cnt < 5) 
+                if (cnt < 5) {
                     s += ch; 
+                }
                 else { 
   
                     // add one '0' after 5 consecutive 1's 
