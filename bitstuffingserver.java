@@ -45,6 +45,6 @@ public class bitstuffingserver {
                 cnt = 0; 
             } 
         } 
-        System.out.println(); 
+        System.out.print("\n"); 
     } 
 } 
